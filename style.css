@@ -1,76 +1,76 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 15px 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+  margin: 15px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 .container {
-background-color: antiquewhite;
-padding: 5px 20px 15px 20px;
-border: 2px solid black;
-border-radius: 5px;
+  background-color: rgb(133, 201, 206);
+  padding: 5px 20px 15px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 input[type="text"],
 input[type="date"],
 input[type="password"],
 input[type="email"],
-input[type="number"],select,textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius:7px;
-    margin: 7px;
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin: 7px;
 }
 fieldset {
-    background-color: white;
-    border: 1px solid #ccc;
+  background-color: white;
+  border: 1px solid #ccc;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
-input[type="submit"],
-input[type="reset"]{
-    background-color: aquamarine;
-    width: 15%;
-    padding: 5px;
-    border: 2px solid black;
-    border: none;
-border-radius: 5px;
-}
-@media screen and (max-width: 480px)
- {
-    body {
-        margin: 10px;
-        padding-bottom: 50px;
-    }
-    input[type="text"],
-input[type="date"],
-input[type="password"],
-input[type="email"],
-input[type="number"],select,textarea {
-    height: 25px;
-}
-.container h1 {
-    font-size: 25px;
-}
-.container h2 {
-    font-size: 20px;
-}
-.container p {
-    font-size: 15px;
-}
-
 input[type="submit"],
 input[type="reset"] {
-    width:  25%;
-    height: 25px;
-  
+  background-color: aquamarine;
+  width: 15%;
+  padding: 5px;
+  border: 2px solid black;
+  border: none;
+  border-radius: 5px;
 }
- 
+@media screen and (max-width: 480px) {
+  body {
+    margin: 10px;
+    padding-bottom: 50px;
+  }
+  input[type="text"],
+  input[type="date"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    height: 25px;
+  }
+  .container h1 {
+    font-size: 25px;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+  .container p {
+    font-size: 15px;
+  }
 
-} 
+  input[type="submit"],
+  input[type="reset"] {
+    width: 25%;
+    height: 25px;
+  }
+}
