@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>JEE MAIN <br> APPLICATION FORM</h1>
+            <hr>
+            <p>Application No * <input type="number" name="application no" id="application no" required></p>
+            <hr>
+            <h2>Personal Detail</h2>
+            <p>Candidates Name * <input type="text" name="Name" id="Name" required></p>
+            <p>Father Name * <input type="text" name="father name" id="" required></p>
+            <p>Mother Name * <input type="text" name="mother name" id=""></p>
+            <p>Candidates date of birth * <input type="date" name="dob" id="dob" required></p>
+            <p>Category * <select name="category" id="category">
+                    <option value="">--select--</option>
+                    <option value="general">General</option>
+                    <option value="pwd">PwD</option>
+                    <option value="st">ST</option>
+                </select>
+                <fieldset>
+                    <p>Gender *
+                        Male <input type="radio" name="gender" id="gender">
+                        Female <input type="radio" name="gender" id="gender">
+                </fieldset>
+            </p>
+
+
+            </p>
+            <p>Nationality * <input type="text" name="nationality" id="nationality"></p>
+            <p>Place Residence *
+                <select name="residence" id="residence">
+                    <option value="">--select--</option>
+                    <option value="urban">Urban</option>
+                    <option value="rural">Rural</option>
+                </select>
+            </p>
+            <hr>
+            <h2>Apply For</h2>
+            <p>Apply For * <select name="apply" id="apply" required>
+                    <option value="">--select--</option>
+                    <option value="">B.E/B.Tech only</option>
+                    <option value="">B.Arch only</option>
+
+                </select>
+
+            </p>
+            <p>Question Paper Medium *
+                <select name="medium" id="medium">
+                    <option value="">--select--</option>
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                </select>
+            </p>
+            <hr>
+            <h2>Cantact</h2>
+            <p>Address * <input type="text" name="address" id="address"></p>
+            <p>City/Town/Village * <input type="text" name="city" id="city"></p>
+            <p>District * <input type="text" name="district" id="district"></p>
+            <p>State * <input type="text" name="state" id="state"></p>
+            <p>Pincode * <input type="number" name="pincode" id="pincide"></p>
+            <p>Email * <input type="email" name="email" id="email"></p>
+            <p>Mobile No * <input type="number" name="num" id="num"></p>
+            <hr>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </form>
+        <form action="">
+            <h2>Fee Payment </h2>
+            <p>Payment Mode:
+                <select name="payment" id="payment">
+                    <option value="">--select--</option>
+                    <option value="">UPI</option>
+                    <option value="">Credit/Debit/ATM Card</option>
+                    <option value="">Net Banking</option>
+                </select>
+            </p>
+            <p>Exam Fee:
+                <select name="fee" id="fee">
+                    <option value="">650/-</option>
+                </select>
+            </p>
+            <input type="submit" value="PAY NOW">
+        </form>
+    </div>
+</body>
+
+
+</html>
